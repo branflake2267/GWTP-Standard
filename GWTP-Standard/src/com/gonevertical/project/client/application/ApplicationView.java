@@ -1,4 +1,4 @@
-package com.arcbees.project.client.application;
+package com.gonevertical.project.client.application;
 
 import javax.inject.Inject;
 

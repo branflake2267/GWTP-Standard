@@ -1,7 +1,7 @@
-package com.arcbees.project.client.gin;
+package com.gonevertical.project.client.gin;
 
-import com.arcbees.project.client.application.ApplicationModule;
-import com.arcbees.project.client.place.NameTokens;
+import com.gonevertical.project.client.application.ApplicationModule;
+import com.gonevertical.project.client.place.NameTokens;
 import com.gwtplatform.mvp.client.annotations.DefaultPlace;
 import com.gwtplatform.mvp.client.annotations.ErrorPlace;
 import com.gwtplatform.mvp.client.annotations.UnauthorizedPlace;
@@ -19,8 +19,8 @@ public class ClientModule extends AbstractPresenterModule {
         install(new ApplicationModule());
 
         // DefaultPlaceManager Places
-        bindConstant().annotatedWith(ErrorPlace.class).to(NameTokens.error);
         bindConstant().annotatedWith(DefaultPlace.class).to(NameTokens.home);
+        bindConstant().annotatedWith(ErrorPlace.class).to(NameTokens.error);
         bindConstant().annotatedWith(UnauthorizedPlace.class).to(NameTokens.unauthorized);
     }
 }

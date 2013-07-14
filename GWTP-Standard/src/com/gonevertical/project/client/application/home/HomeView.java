@@ -1,4 +1,4 @@
-package com.arcbees.project.client.application.unauthorized;
+package com.gonevertical.project.client.application.home;
 
 import javax.inject.Inject;
 
@@ -8,24 +8,22 @@ import com.google.gwt.user.client.ui.IsWidget;
 import com.google.gwt.user.client.ui.SimplePanel;
 import com.google.gwt.user.client.ui.Widget;
 import com.gwtplatform.mvp.client.ViewImpl;
-import com.gwtplatform.mvp.client.ViewWithUiHandlers;
 
-public class UnAuthorizedView extends ViewImpl implements
-		UnAuthorizedPresenter.MyView {
-	interface Binder extends UiBinder<Widget, UnAuthorizedView> {
+public class HomeView extends ViewImpl implements HomePresenter.MyView {
+	interface Binder extends UiBinder<Widget, HomeView> {
 	}
 
 	@UiField
 	SimplePanel main;
 
 	@Inject
-	UnAuthorizedView(Binder uiBinder) {
+	HomeView(Binder uiBinder) {
 		initWidget(uiBinder.createAndBindUi(this));
 	}
 
 	@Override
 	public void setInSlot(Object slot, IsWidget content) {
-		if (slot == UnAuthorizedPresenter.SLOT_UnAuthorized) {
+		if (slot == HomePresenter.SLOT_Home) {
 			main.setWidget(content);
 		} else {
 			super.setInSlot(slot, content);

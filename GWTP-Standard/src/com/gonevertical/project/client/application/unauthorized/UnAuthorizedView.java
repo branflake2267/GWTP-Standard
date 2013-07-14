@@ -1,4 +1,4 @@
-package com.arcbees.project.client.application.error;
+package com.gonevertical.project.client.application.unauthorized;
 
 import javax.inject.Inject;
 
@@ -10,21 +10,22 @@ import com.google.gwt.user.client.ui.Widget;
 import com.gwtplatform.mvp.client.ViewImpl;
 import com.gwtplatform.mvp.client.ViewWithUiHandlers;
 
-public class ErrorView extends ViewImpl implements ErrorPresenter.MyView {
-	interface Binder extends UiBinder<Widget, ErrorView> {
+public class UnAuthorizedView extends ViewImpl implements
+		UnAuthorizedPresenter.MyView {
+	interface Binder extends UiBinder<Widget, UnAuthorizedView> {
 	}
 
 	@UiField
 	SimplePanel main;
 
 	@Inject
-	ErrorView(Binder uiBinder) {
+	UnAuthorizedView(Binder uiBinder) {
 		initWidget(uiBinder.createAndBindUi(this));
 	}
 
 	@Override
 	public void setInSlot(Object slot, IsWidget content) {
-		if (slot == ErrorPresenter.SLOT_Error) {
+		if (slot == UnAuthorizedPresenter.SLOT_UnAuthorized) {
 			main.setWidget(content);
 		} else {
 			super.setInSlot(slot, content);

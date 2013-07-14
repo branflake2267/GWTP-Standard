@@ -1,4 +1,4 @@
-package com.arcbees.project.client.application.unauthorized;
+package com.gonevertical.project.client.application.unauthorized;
 
 import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 

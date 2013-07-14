@@ -12,7 +12,7 @@
 
 
     <!-- Other module inherits -->
-    <inherits name='com.gwtplatform.dispatch.Dispatch' />
+    <!-- <inherits name='com.gwtplatform.dispatch.Dispatch' /> -->
 
     <!-- Using the generated EntryPoint, must add module debugging GWT -->
     <inherits name='com.gwtplatform.mvp.MvpWithEntryPoint' />
@@ -21,6 +21,7 @@
     <source path='shared' />
 
     <!-- When copying this, be sure to change the package to the ClientModule -->
-    <set-configuration-property name="gin.ginjector.modules" value="com.arcbees.project.client.gin.ClientModule" />
+    <set-configuration-property name="gin.ginjector.modules" 
+    							value="com.gonevertical.project.client.gin.ClientModule" />
 
 </module>

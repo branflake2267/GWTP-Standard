@@ -1,4 +1,4 @@
-package com.arcbees.project.client.place;
+package com.gonevertical.project.client.place;
 
 /**
  * The central location of all name tokens for the application. All

@@ -1,9 +1,9 @@
-package com.arcbees.project.client.application;
+package com.gonevertical.project.client.application;
 
+import com.gonevertical.project.client.application.error.ErrorModule;
+import com.gonevertical.project.client.application.home.HomeModule;
+import com.gonevertical.project.client.application.unauthorized.UnAuthorizedModule;
 import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
-import com.arcbees.project.client.application.home.HomeModule;
-import com.arcbees.project.client.application.error.ErrorModule;
-import com.arcbees.project.client.application.unauthorized.UnAuthorizedModule;
 
 public class ApplicationModule extends AbstractPresenterModule {
 	@Override

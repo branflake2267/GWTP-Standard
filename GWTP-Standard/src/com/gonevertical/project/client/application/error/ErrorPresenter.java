@@ -1,5 +1,6 @@
-package com.arcbees.project.client.application.error;
+package com.gonevertical.project.client.application.error;
 
+import com.gonevertical.project.client.place.NameTokens;
 import com.google.gwt.event.shared.GwtEvent.Type;
 import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
@@ -13,8 +14,6 @@ import com.gwtplatform.mvp.client.HasUiHandlers;
 import com.gwtplatform.mvp.client.proxy.PlaceRequest;
 import com.gwtplatform.mvp.client.annotations.NameToken;
 import com.gwtplatform.mvp.client.annotations.ProxyCodeSplit;
-
-import com.arcbees.project.client.place.NameTokens;
 
 public class ErrorPresenter extends
 		Presenter<ErrorPresenter.MyView, ErrorPresenter.MyProxy> {

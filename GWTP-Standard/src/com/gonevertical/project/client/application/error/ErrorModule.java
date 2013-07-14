@@ -1,4 +1,4 @@
-package com.arcbees.project.client.application.error;
+package com.gonevertical.project.client.application.error;
 
 import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 

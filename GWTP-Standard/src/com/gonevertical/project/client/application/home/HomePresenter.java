@@ -1,6 +1,6 @@
-package com.arcbees.project.client.application.home;
+package com.gonevertical.project.client.application.home;
 
-import com.arcbees.project.client.place.NameTokens;
+import com.gonevertical.project.client.place.NameTokens;
 import com.google.gwt.event.shared.GwtEvent.Type;
 import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
