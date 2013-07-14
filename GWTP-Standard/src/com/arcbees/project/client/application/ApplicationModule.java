@@ -17,10 +17,12 @@
 package com.arcbees.project.client.application;
 
 import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
+import com.arcbees.project.client.application.apphome.AppHomeModule;
 
 public class ApplicationModule extends AbstractPresenterModule {
 	@Override
 	protected void configure() {
+		install(new AppHomeModule());
 		bindPresenter(ApplicationPresenter.class,
 				ApplicationPresenter.MyView.class, ApplicationView.class,
 				ApplicationPresenter.MyProxy.class);
