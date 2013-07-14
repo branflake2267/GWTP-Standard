@@ -4,7 +4,7 @@
 	<classpathentry kind="src" output="test-classes" path="test"/>
 	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-servlet.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwtp-all-1.0.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/aopalliance-1.0.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-collections-3.2.1.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-lang-2.4.jar"/>
@@ -12,13 +12,6 @@
 	<classpathentry kind="lib" path="war/WEB-INF/lib/guice-3.0.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/guice-assistedinject-3.0.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/guice-servlet-3.0.jar"/>
-	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-user-2.5.1.jar"/>
-	<classpathentry kind="lib" path="war/WEB-INF/lib/gwtp-clients-common-1.0.jar"/>
-	<classpathentry kind="lib" path="war/WEB-INF/lib/gwtp-dispatch-client-1.0.jar"/>
-	<classpathentry kind="lib" path="war/WEB-INF/lib/gwtp-dispatch-server-1.0.jar"/>
-	<classpathentry kind="lib" path="war/WEB-INF/lib/gwtp-dispatch-server-guice-1.0.jar"/>
-	<classpathentry kind="lib" path="war/WEB-INF/lib/gwtp-dispatch-shared-1.0.jar"/>
-	<classpathentry kind="lib" path="war/WEB-INF/lib/gwtp-mvp-client-1.0.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/javax.inject-1.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/json-20090211.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/validation-api-1.0.0.GA-sources.jar"/>
